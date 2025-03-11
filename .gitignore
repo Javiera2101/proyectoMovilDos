@@ -1,0 +1,41 @@
+# Dependencias
+/node_modules
+/venv
+/.pnp
+.pnp.js
+
+# Variables de entorno y credenciales
+.env
+.env.local
+.env.*
+!.env.example
+backend/config/credenciales.json
+
+# Archivos de configuración
+/src/environments/environment.ts
+/src/environments/environment.prod.ts
+!/src/environments/environment.example.ts
+
+# Archivos de producción
+/build
+/dist
+
+# Archivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+/.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Angular
+/.angular/cache
+.sass-cache/
+
+# Sistema
+.DS_Store
+Thumbs.db
